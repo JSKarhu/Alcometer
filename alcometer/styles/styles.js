@@ -6,8 +6,8 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
-        justifyContent: 'center',
-        margin: 10,
+        //justifyContent: 'center',
+        margin: 0,
       },
     button: {
         width: 120,
