@@ -3,19 +3,16 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    //justifyContent: 'center',
     alignItems: 'center',
   },
   switchRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    //paddingHorizontal: 20,
-    //paddingVertical: 10,
+    alignItems: 'center'
   },
   switch: {
     marginLeft: 10,
-   transform: [{ scaleX: 1.2 }, { scaleY: 1.2 }],
+    transform: [{ scaleX: 1.2 }, { scaleY: 1.2 }],
   },
   header: {
     fontSize: 30,
