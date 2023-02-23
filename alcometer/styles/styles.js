@@ -1,37 +1,41 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
-
-export default StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        //justifyContent: 'center',
-        margin: 0,
-      },
-    button: {
-        width: 120,
-        backgroundColor: 'red',
-        padding: 5,
-        textAlign: 'center',
-        borderWidth: 1,
-        fontWeight: 'bold',
-        borderRadius: 5,
-        overflow: "hidden",
-    },
-    textInput: {
-        borderWidth:1, 
-        padding: 5,
-        width: 150
-    },
-    radio: {
-        color: 'black',
-        borderWidth: 1,
-    },
-    header: {
-        color: '#705000',
-        fontWeight: "bold",
-        fontSize: 30,
-        marginBottom: 10
-    },
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    //justifyContent: 'center',
+    alignItems: 'center',
+  },
+  switchRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    //paddingHorizontal: 20,
+    //paddingVertical: 10,
+  },
+  switch: {
+    marginLeft: 10,
+   transform: [{ scaleX: 1.2 }, { scaleY: 1.2 }],
+  },
+  header: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  textInput: {
+    backgroundColor: 'white',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 10,
+    width: '100%',
+  },
+  button: {
+    backgroundColor: 'lightblue',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 20,
+    width: '100%',
+  },
 });
+
+export default styles;
